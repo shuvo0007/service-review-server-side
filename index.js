@@ -7,7 +7,6 @@ const { ObjectID, ObjectId } = require("bson");
 
 app.use(cors());
 app.use(express.json());
-const category = require("./data/category.json");
 
 app.get("/", (req, res) => {
   res.send("Service Review Server Running");
