@@ -1,0 +1,63 @@
+[
+  {
+    "id": "01",
+    "name": "Windows 10 Features",
+    "image": "https://repto.com.bd/uploads/course/banner_img/course_37.jpg",
+    "details": "উইন্ডোজ ১০ কেন ব্যবহার করবেন, এই প্রশ্নের উত্তর জানতে হলে উইন্ডোজ ১০ এর টপ ১০ ফিচারসমূহ দেখতে হবে। তাই উইন্ডোজ ১০ এর টপ ১০ ফিচারসমূহ নিয়ে আমাদের এই কোর্স। আশাকরি আপনাদের ভাল লাগবে।",
+    "instructor": "Titas Sarker",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_31_kxZdwvbH.PNG",
+    "duration": "20.5 Min",
+    "price": "৳5000"
+  },
+  {
+    "id": "02",
+    "name": "Journalism Course",
+    "image": "https://repto.com.bd/uploads/course/banner_img/course_66.png",
+    "details": "আমাদের অনেকেরই টিভি দেখার সময় সংবাদ উপস্থাপনা করতে ইচ্ছা হয়। আবার অনেকে পেশা হিসেবেও নিতে চান সংবাদ উপস্থাপনাকে তাই ক্লিকএনটেক.কম আপনাদের জন্য নিয়ে এসেছে টেলিভিশন সংবাদ উপস্থাপনার ওপর ফ্রি ভিডিও কোর্স। এই কোর্স এর মাধ্যমে আপনি বাড়ী বসেই শিখতে পারবেন সংবাদ উপস্থাপনা শুধু আপনাকে ধারাবাহিক ভিডিওগুলি দেখতে হবে এবং নিজে নিজে অনুশীলন করতে হবে।",
+    "instructor": "Ali Ahamed Namen",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_33_hxmA90yP.jpg",
+    "duration": "15.9 Min",
+    "price": "৳6000"
+  },
+  {
+    "id": "03",
+    "name": "Introduction to Java Programming",
+    "image": "https://repto.com.bd/uploads/course/banner_img/course_47.png",
+    "details": "কোন কিছু শেখায় কোন লস নেই। অনেকেই ভাবে এটা শিখলে যদি কিছুদিন পর এটার ভ্যালু কমে যায়? আসলে যেটা শিখছেন সেটার ভ্যালু কমতে পারে কিন্তু আপনি যদি শিখে ফেলেন আপনার ভ্যালু বাড়তেই থাকবে। মানুষ হিসেবে আমাদের কাজই হচ্ছে আমাদের ভ্যালু বাড়ানো। যদি প্রোগ্রামিং শিখেন তাহলে তো লস হওয়ার প্রশ্নই আসেনা। আপনি যেই সেক্টরের মানুষই হন না কেন, প্রোগ্রমিং একটা শিখতেই পারেন, এতে লস কিছু নেই। বরং আপনার সময় কাটানোর একটা জিনিস পাবেন, প্যাশনের একটা জিনিস পাবেন, হতে পারে পেশা হিসেবেও পেয়ে যেতে পারেন। সত্যি কথা বলতে কি, সমস্যা সমধান করায় রিয়েল লাইফে আপনার লজিক সেন্স বাড়বে। আরো লগিক্যাল মানুষ হয়ে উঠবেন।  আর সেই প্রোগ্রামিংটা যদি জাভা হয় তাহলে তো কথাই নেই!",
+    "instructor": "Mosharrof Rubel",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_28_pXK6XMIq.jpeg",
+    "duration": "2.6 Hours",
+    "price": "৳5500"
+  },
+  {
+    "id": "04",
+    "name": "Complete Java Developer Course",
+    "image": "https://repto.com.bd/uploads/course/banner_img/course_70.png",
+    "details": "জাভা প্রোগ্রামিং এর একটি গুরুত্ত পূণ ল্যাংগুয়েজ। এই কোর্সএ প্রোগ্রামিং ল্যাংগুয়েজ জাভা সম্পকে বিস্তারিত জানতে পারবেন। আশা করি আপনাদের ভালো লাগবে। যাদের প্রোগ্রামিং এর বেসিক ধারনা রয়েছে এমন যে কেউ এই কোর্সটি করতে পারেন।",
+    "instructor": "Faisal Ahammad",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_17020_lS0b8BF2.jpg",
+    "duration": "2.3 Hours",
+    "price": "৳7000"
+  },
+  {
+    "id": "05",
+    "name": "Video Editing and Animation",
+    "image": "https://wcm-cdn.wacom.com/-/media/images/discover-2020/film-and-animation/the-best-video-editing-techniques/wacom-film-animation-best-video-editing-techniques-m-i.jpg?rev=4ba7271688574777889fea8b0817816e&hash=6836C8D7DC20EEF9E1A5C44C887AEB93",
+    "details": "ফ্রিল্যান্সিং মার্কেটপ্লেসে সবচেয়ে দামী কাজ গুলোর মধ্যে অন্যতম এনিমেশন ডিজাইন এবং বর্তমান চাকরির বাজারেও এনিমেশন ডিজাইনারদের রয়েছে ব্যাপক চাহিদা। তাই এনিমেশন ডিজাইন শিখে আপনিও গড়তে পারেন স্থায়ী ক্যারিয়ার।আর এই প্রথম রেপটো নিয়ে এলো এনিমেশন ডিজাইন শেখার বেস্ট পরিপূর্ণ বাংলা ভিডিও কোর্স After Effects CC 2017 Complete Training। এই কোর্সে আপনি Adobe After Effects এর পুরোপুরি বেসিক ধারনা পাবেন। যারা Adobe After Effects সম্পর্কে কিছুই জানেন না, তাদের জন্য এই কোর্স। এই পুরো কোর্সটিতে আমি আপনাদের সাথে আছি রুহুল আমিন।",
+    "instructor": "Ruhul Amin",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_468_KKWIRnxJ.jpg",
+    "duration": "2.3 Hours",
+    "price": "৳7000"
+
+  },
+  {
+    "id": "06",
+    "name": "Graphic Design",
+    "image": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1071218_Graphic-Design.jpg",
+    "details": "যারা গ্রাফিক ডিজাইন সেক্টরে ক্যারিয়ার গড়তে দৃঢ় প্রত্যয়ী এবং ভালো মানের আয় করতে চান, তাদের জন্য রেপটো নিয়ে এসেছে গ্রাফিক ডিজাইনের পরিপূর্ণ কোর্স, যা শিখে আপনি হতে পারবেন একজন অভিজ্ঞ গ্রাফিক ডিজাইনার।",
+    "instructor": "Ashikul Islam",
+    "instructor_image": "https://repto.com.bd/uploads/avatar/original/user_21_l9MGlprg.jpg",
+    "duration": "2.3 Hours",
+    "price": "৳7000"
+  }
+]
