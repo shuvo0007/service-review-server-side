@@ -23,6 +23,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     const userCollection = client.db("service-review").collection("category");
+    const userReview = client.db("service-review").collection("reviews");
 
     app.get("/category", async (req, res) => {
       const query = {};
@@ -36,6 +37,19 @@ async function run() {
       const query = { _id: ObjectId(id) };
       const categories = await userCollection.findOne(query);
       res.send(categories);
+    });
+
+    app.get("/reviews", async (req, res) => {
+      const query = {};
+      const cursor = userReview.find(query);
+      const reviews = await cursor.toArray();
+      res.send(reviews);
+    });
+
+    app.post("/reviews", async (req, res) => {
+      const review = req.body;
+      const allReviews = await userReview.insertOne(review, new Date());
+      res.send(allReviews);
     });
   } finally {
   }
