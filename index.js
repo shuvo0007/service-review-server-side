@@ -51,6 +51,11 @@ async function run() {
       const allReviews = await userReview.insertOne(review, new Date());
       res.send(allReviews);
     });
+    app.post("/category", async (req, res) => {
+      const category = req.body;
+      const allCategory = await userCollection.insertOne(category);
+      res.send(allCategory);
+    });
   } finally {
   }
 }
