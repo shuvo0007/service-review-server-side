@@ -31,6 +31,11 @@ async function run() {
       const category = await cursor.toArray();
       res.send(category);
     });
+    app.post("/category", async (req, res) => {
+      const category = req.body;
+      const allCategory = await userCollection.insertOne(category);
+      res.send(allCategory);
+    });
 
     app.get("/category/:id", async (req, res) => {
       const id = req.params.id;
@@ -51,11 +56,37 @@ async function run() {
       const allReviews = await userReview.insertOne(review, new Date());
       res.send(allReviews);
     });
-    app.post("/category", async (req, res) => {
-      const category = req.body;
-      const allCategory = await userCollection.insertOne(category);
-      res.send(allCategory);
+
+    app.get("/reviews/:id", async (req, res) => {
+      const id = res.params.id;
+      const query = { _id: Object(id) };
+      const review = await userReview.findOne(query);
+      res.send(review);
     });
+
+    app.put("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: Object(id) };
+      const review = req.body;
+      const option = { upset: true };
+      const updateReview = {
+        $set: {
+          review: review.review,
+          date: new Date(),
+        },
+      };
+      const result = await userReview.updateOne(filter, updateReview, option);
+      res.send(result);
+    });
+
+    app.delete('/reviews/:id',async(req,res)=>{
+      const id=req.params.id;
+      const query={_id:Object(id)};
+      const result=await userReview.deleteOne(query);
+      res.send(result);
+    })
+
+
   } finally {
   }
 }
