@@ -24,7 +24,6 @@ async function run() {
   try {
     const userCollection = client.db("service-review").collection("category");
     const userReview = client.db("service-review").collection("reviews");
-
     app.get("/category", async (req, res) => {
       const query = {};
       const cursor = userCollection.find(query);
@@ -58,35 +57,32 @@ async function run() {
     });
 
     app.get("/reviews/:id", async (req, res) => {
-      const id = res.params.id;
-      const query = { _id: Object(id) };
-      const review = await userReview.findOne(query);
-      res.send(review);
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const reviews = await userReview.findOne(query);
+      res.send(reviews);
     });
 
     app.put("/reviews/:id", async (req, res) => {
       const id = req.params.id;
-      const filter = { _id: Object(id) };
+      const filter = { _id: ObjectId(id) };
       const review = req.body;
       const option = { upset: true };
       const updateReview = {
         $set: {
           review: review.review,
-          date: new Date(),
         },
       };
       const result = await userReview.updateOne(filter, updateReview, option);
       res.send(result);
     });
 
-    app.delete('/reviews/:id',async(req,res)=>{
-      const id=req.params.id;
-      const query={_id:Object(id)};
-      const result=await userReview.deleteOne(query);
+    app.delete("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const result = await userReview.deleteOne(query);
       res.send(result);
-    })
-
-
+    });
   } finally {
   }
 }
